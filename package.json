@@ -1,0 +1,22 @@
+{
+  "name": "todo-server-app",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Tom Bowden",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env-cmd ./config/dev.env nodemon src/index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "graphql": "^14.1.1",
+    "mongoose": "^5.4.17"
+  },
+  "devDependencies": {
+    "env-cmd": "^8.0.2",
+    "nodemon": "^1.18.10"
+  }
+}
