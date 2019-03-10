@@ -18,5 +18,8 @@
   "devDependencies": {
     "env-cmd": "^8.0.2",
     "nodemon": "^1.18.10"
+  },
+  "engines": {
+    "node": "10.11.0"
   }
 }
